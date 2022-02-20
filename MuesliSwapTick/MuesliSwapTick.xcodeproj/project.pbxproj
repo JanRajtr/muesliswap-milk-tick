@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF02E0AF27C2A74100F16BCE /* MuesliSwapTickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0AE27C2A74100F16BCE /* MuesliSwapTickApp.swift */; };
+		BF02E0B127C2A74100F16BCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0B027C2A74100F16BCE /* ContentView.swift */; };
+		BF02E0B327C2A74200F16BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02E0B227C2A74200F16BCE /* Assets.xcassets */; };
+		BF02E0B627C2A74200F16BCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF02E0B527C2A74200F16BCE /* Preview Assets.xcassets */; };
+		BF02E0C127C2A74200F16BCE /* MuesliSwapTickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0C027C2A74200F16BCE /* MuesliSwapTickTests.swift */; };
+		BF02E0CB27C2A74200F16BCE /* MuesliSwapTickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0CA27C2A74200F16BCE /* MuesliSwapTickUITests.swift */; };
+		BF02E0CD27C2A74200F16BCE /* MuesliSwapTickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0CC27C2A74200F16BCE /* MuesliSwapTickUITestsLaunchTests.swift */; };
+		BF02E0DB27C2A7F700F16BCE /* TradingPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0DA27C2A7F700F16BCE /* TradingPair.swift */; };
+		BF02E0DC27C2A7F800F16BCE /* TradingPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0DA27C2A7F700F16BCE /* TradingPair.swift */; };
+		BF02E0DF27C2A8B300F16BCE /* ModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0DE27C2A8B300F16BCE /* ModelFactory.swift */; };
+		BF02E0E027C2A8B300F16BCE /* ModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0DE27C2A8B300F16BCE /* ModelFactory.swift */; };
+		BF02E0E227C2AA3900F16BCE /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0E127C2AA3900F16BCE /* NetworkFetcher.swift */; };
+		BF02E0E327C2AA3900F16BCE /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0E127C2AA3900F16BCE /* NetworkFetcher.swift */; };
+		BF02E0E627C2AA6900F16BCE /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0E527C2AA6900F16BCE /* AppState.swift */; };
+		BF02E0E727C2AA6900F16BCE /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0E527C2AA6900F16BCE /* AppState.swift */; };
+		BF02E0E927C2AAE600F16BCE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0E827C2AAE600F16BCE /* AppSettings.swift */; };
+		BF02E0EA27C2AAE600F16BCE /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0E827C2AAE600F16BCE /* AppSettings.swift */; };
+		BF02E0EC27C2AC6B00F16BCE /* NetworkingEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0EB27C2AC6B00F16BCE /* NetworkingEndpoints.swift */; };
+		BF02E0ED27C2AC6B00F16BCE /* NetworkingEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0EB27C2AC6B00F16BCE /* NetworkingEndpoints.swift */; };
+		BF02E0F027C2C23800F16BCE /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0EF27C2C23800F16BCE /* Double+.swift */; };
+		BF02E0F127C2C23800F16BCE /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF02E0EF27C2C23800F16BCE /* Double+.swift */; };
+		BF60EE6127C2DCD500EA9AC9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60EE6027C2DCD500EA9AC9 /* DataModel.swift */; };
+		BF60EE6327C2DDF500EA9AC9 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60EE6227C2DDF500EA9AC9 /* MenuBar.swift */; };
+		BF60EE6527C2F30F00EA9AC9 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60EE6427C2F30F00EA9AC9 /* String+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF02E0BD27C2A74200F16BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF02E0A327C2A74100F16BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF02E0AA27C2A74100F16BCE;
+			remoteInfo = MuesliSwapTick;
+		};
+		BF02E0C727C2A74200F16BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF02E0A327C2A74100F16BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF02E0AA27C2A74100F16BCE;
+			remoteInfo = MuesliSwapTick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF02E0AB27C2A74100F16BCE /* MuesliSwapTick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuesliSwapTick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02E0AE27C2A74100F16BCE /* MuesliSwapTickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuesliSwapTickApp.swift; sourceTree = "<group>"; };
+		BF02E0B027C2A74100F16BCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF02E0B227C2A74200F16BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF02E0B527C2A74200F16BCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF02E0B727C2A74200F16BCE /* MuesliSwapTick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MuesliSwapTick.entitlements; sourceTree = "<group>"; };
+		BF02E0BC27C2A74200F16BCE /* MuesliSwapTickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuesliSwapTickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02E0C027C2A74200F16BCE /* MuesliSwapTickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuesliSwapTickTests.swift; sourceTree = "<group>"; };
+		BF02E0C627C2A74200F16BCE /* MuesliSwapTickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuesliSwapTickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02E0CA27C2A74200F16BCE /* MuesliSwapTickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuesliSwapTickUITests.swift; sourceTree = "<group>"; };
+		BF02E0CC27C2A74200F16BCE /* MuesliSwapTickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuesliSwapTickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF02E0DA27C2A7F700F16BCE /* TradingPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingPair.swift; sourceTree = "<group>"; };
+		BF02E0DE27C2A8B300F16BCE /* ModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFactory.swift; sourceTree = "<group>"; };
+		BF02E0E127C2AA3900F16BCE /* NetworkFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetcher.swift; sourceTree = "<group>"; };
+		BF02E0E527C2AA6900F16BCE /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BF02E0E827C2AAE600F16BCE /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		BF02E0EB27C2AC6B00F16BCE /* NetworkingEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndpoints.swift; sourceTree = "<group>"; };
+		BF02E0EF27C2C23800F16BCE /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		BF60EE6027C2DCD500EA9AC9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		BF60EE6227C2DDF500EA9AC9 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		BF60EE6427C2F30F00EA9AC9 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF02E0A827C2A74100F16BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02E0B927C2A74200F16BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02E0C327C2A74200F16BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF02E0A227C2A74100F16BCE = {
+			isa = PBXGroup;
+			children = (
+				BF02E0AD27C2A74100F16BCE /* MuesliSwapTick */,
+				BF02E0BF27C2A74200F16BCE /* MuesliSwapTickTests */,
+				BF02E0C927C2A74200F16BCE /* MuesliSwapTickUITests */,
+				BF02E0AC27C2A74100F16BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF02E0AC27C2A74100F16BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0AB27C2A74100F16BCE /* MuesliSwapTick.app */,
+				BF02E0BC27C2A74200F16BCE /* MuesliSwapTickTests.xctest */,
+				BF02E0C627C2A74200F16BCE /* MuesliSwapTickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF02E0AD27C2A74100F16BCE /* MuesliSwapTick */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0F227C2CD2200F16BCE /* Views */,
+				BF02E0EE27C2C22700F16BCE /* System */,
+				BF02E0E427C2AA5D00F16BCE /* State */,
+				BF02E0DD27C2A88500F16BCE /* Networking */,
+				BF02E0D927C2A7CC00F16BCE /* Model */,
+				BF02E0AE27C2A74100F16BCE /* MuesliSwapTickApp.swift */,
+				BF02E0B027C2A74100F16BCE /* ContentView.swift */,
+				BF02E0B227C2A74200F16BCE /* Assets.xcassets */,
+				BF02E0B727C2A74200F16BCE /* MuesliSwapTick.entitlements */,
+				BF02E0B427C2A74200F16BCE /* Preview Content */,
+			);
+			path = MuesliSwapTick;
+			sourceTree = "<group>";
+		};
+		BF02E0B427C2A74200F16BCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0B527C2A74200F16BCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF02E0BF27C2A74200F16BCE /* MuesliSwapTickTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0C027C2A74200F16BCE /* MuesliSwapTickTests.swift */,
+			);
+			path = MuesliSwapTickTests;
+			sourceTree = "<group>";
+		};
+		BF02E0C927C2A74200F16BCE /* MuesliSwapTickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0CA27C2A74200F16BCE /* MuesliSwapTickUITests.swift */,
+				BF02E0CC27C2A74200F16BCE /* MuesliSwapTickUITestsLaunchTests.swift */,
+			);
+			path = MuesliSwapTickUITests;
+			sourceTree = "<group>";
+		};
+		BF02E0D927C2A7CC00F16BCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0DA27C2A7F700F16BCE /* TradingPair.swift */,
+				BF02E0DE27C2A8B300F16BCE /* ModelFactory.swift */,
+				BF02E0E827C2AAE600F16BCE /* AppSettings.swift */,
+				BF60EE6027C2DCD500EA9AC9 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF02E0DD27C2A88500F16BCE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0E127C2AA3900F16BCE /* NetworkFetcher.swift */,
+				BF02E0EB27C2AC6B00F16BCE /* NetworkingEndpoints.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BF02E0E427C2AA5D00F16BCE /* State */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0E527C2AA6900F16BCE /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		BF02E0EE27C2C22700F16BCE /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BF02E0EF27C2C23800F16BCE /* Double+.swift */,
+				BF60EE6427C2F30F00EA9AC9 /* String+.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BF02E0F227C2CD2200F16BCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF60EE6227C2DDF500EA9AC9 /* MenuBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF02E0AA27C2A74100F16BCE /* MuesliSwapTick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02E0D027C2A74200F16BCE /* Build configuration list for PBXNativeTarget "MuesliSwapTick" */;
+			buildPhases = (
+				BF02E0A727C2A74100F16BCE /* Sources */,
+				BF02E0A827C2A74100F16BCE /* Frameworks */,
+				BF02E0A927C2A74100F16BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuesliSwapTick;
+			productName = MuesliSwapTick;
+			productReference = BF02E0AB27C2A74100F16BCE /* MuesliSwapTick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF02E0BB27C2A74200F16BCE /* MuesliSwapTickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02E0D327C2A74200F16BCE /* Build configuration list for PBXNativeTarget "MuesliSwapTickTests" */;
+			buildPhases = (
+				BF02E0B827C2A74200F16BCE /* Sources */,
+				BF02E0B927C2A74200F16BCE /* Frameworks */,
+				BF02E0BA27C2A74200F16BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF02E0BE27C2A74200F16BCE /* PBXTargetDependency */,
+			);
+			name = MuesliSwapTickTests;
+			productName = MuesliSwapTickTests;
+			productReference = BF02E0BC27C2A74200F16BCE /* MuesliSwapTickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF02E0C527C2A74200F16BCE /* MuesliSwapTickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF02E0D627C2A74200F16BCE /* Build configuration list for PBXNativeTarget "MuesliSwapTickUITests" */;
+			buildPhases = (
+				BF02E0C227C2A74200F16BCE /* Sources */,
+				BF02E0C327C2A74200F16BCE /* Frameworks */,
+				BF02E0C427C2A74200F16BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF02E0C827C2A74200F16BCE /* PBXTargetDependency */,
+			);
+			name = MuesliSwapTickUITests;
+			productName = MuesliSwapTickUITests;
+			productReference = BF02E0C627C2A74200F16BCE /* MuesliSwapTickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF02E0A327C2A74100F16BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BF02E0AA27C2A74100F16BCE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BF02E0BB27C2A74200F16BCE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BF02E0AA27C2A74100F16BCE;
+					};
+					BF02E0C527C2A74200F16BCE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BF02E0AA27C2A74100F16BCE;
+					};
+				};
+			};
+			buildConfigurationList = BF02E0A627C2A74100F16BCE /* Build configuration list for PBXProject "MuesliSwapTick" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF02E0A227C2A74100F16BCE;
+			productRefGroup = BF02E0AC27C2A74100F16BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF02E0AA27C2A74100F16BCE /* MuesliSwapTick */,
+				BF02E0BB27C2A74200F16BCE /* MuesliSwapTickTests */,
+				BF02E0C527C2A74200F16BCE /* MuesliSwapTickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF02E0A927C2A74100F16BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02E0B627C2A74200F16BCE /* Preview Assets.xcassets in Resources */,
+				BF02E0B327C2A74200F16BCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02E0BA27C2A74200F16BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02E0C427C2A74200F16BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF02E0A727C2A74100F16BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02E0B127C2A74100F16BCE /* ContentView.swift in Sources */,
+				BF02E0F027C2C23800F16BCE /* Double+.swift in Sources */,
+				BF02E0DB27C2A7F700F16BCE /* TradingPair.swift in Sources */,
+				BF02E0E927C2AAE600F16BCE /* AppSettings.swift in Sources */,
+				BF02E0E227C2AA3900F16BCE /* NetworkFetcher.swift in Sources */,
+				BF60EE6127C2DCD500EA9AC9 /* DataModel.swift in Sources */,
+				BF02E0E627C2AA6900F16BCE /* AppState.swift in Sources */,
+				BF02E0DF27C2A8B300F16BCE /* ModelFactory.swift in Sources */,
+				BF02E0EC27C2AC6B00F16BCE /* NetworkingEndpoints.swift in Sources */,
+				BF60EE6327C2DDF500EA9AC9 /* MenuBar.swift in Sources */,
+				BF60EE6527C2F30F00EA9AC9 /* String+.swift in Sources */,
+				BF02E0AF27C2A74100F16BCE /* MuesliSwapTickApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02E0B827C2A74200F16BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02E0C127C2A74200F16BCE /* MuesliSwapTickTests.swift in Sources */,
+				BF02E0E727C2AA6900F16BCE /* AppState.swift in Sources */,
+				BF02E0EA27C2AAE600F16BCE /* AppSettings.swift in Sources */,
+				BF02E0ED27C2AC6B00F16BCE /* NetworkingEndpoints.swift in Sources */,
+				BF02E0DC27C2A7F800F16BCE /* TradingPair.swift in Sources */,
+				BF02E0E327C2AA3900F16BCE /* NetworkFetcher.swift in Sources */,
+				BF02E0F127C2C23800F16BCE /* Double+.swift in Sources */,
+				BF02E0E027C2A8B300F16BCE /* ModelFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF02E0C227C2A74200F16BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF02E0CB27C2A74200F16BCE /* MuesliSwapTickUITests.swift in Sources */,
+				BF02E0CD27C2A74200F16BCE /* MuesliSwapTickUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF02E0BE27C2A74200F16BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF02E0AA27C2A74100F16BCE /* MuesliSwapTick */;
+			targetProxy = BF02E0BD27C2A74200F16BCE /* PBXContainerItemProxy */;
+		};
+		BF02E0C827C2A74200F16BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF02E0AA27C2A74100F16BCE /* MuesliSwapTick */;
+			targetProxy = BF02E0C727C2A74200F16BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF02E0CE27C2A74200F16BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF02E0CF27C2A74200F16BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BF02E0D127C2A74200F16BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MuesliSwapTick/MuesliSwapTick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuesliSwapTick/Preview Content\"";
+				DEVELOPMENT_TEAM = SR8V896744;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janrajtr.MuesliSwapTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF02E0D227C2A74200F16BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MuesliSwapTick/MuesliSwapTick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuesliSwapTick/Preview Content\"";
+				DEVELOPMENT_TEAM = SR8V896744;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janrajtr.MuesliSwapTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BF02E0D427C2A74200F16BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V896744;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janrajtr.MuesliSwapTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuesliSwapTick.app/Contents/MacOS/MuesliSwapTick";
+			};
+			name = Debug;
+		};
+		BF02E0D527C2A74200F16BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V896744;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janrajtr.MuesliSwapTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuesliSwapTick.app/Contents/MacOS/MuesliSwapTick";
+			};
+			name = Release;
+		};
+		BF02E0D727C2A74200F16BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V896744;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janrajtr.MuesliSwapTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MuesliSwapTick;
+			};
+			name = Debug;
+		};
+		BF02E0D827C2A74200F16BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR8V896744;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janrajtr.MuesliSwapTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MuesliSwapTick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF02E0A627C2A74100F16BCE /* Build configuration list for PBXProject "MuesliSwapTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02E0CE27C2A74200F16BCE /* Debug */,
+				BF02E0CF27C2A74200F16BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02E0D027C2A74200F16BCE /* Build configuration list for PBXNativeTarget "MuesliSwapTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02E0D127C2A74200F16BCE /* Debug */,
+				BF02E0D227C2A74200F16BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02E0D327C2A74200F16BCE /* Build configuration list for PBXNativeTarget "MuesliSwapTickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02E0D427C2A74200F16BCE /* Debug */,
+				BF02E0D527C2A74200F16BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF02E0D627C2A74200F16BCE /* Build configuration list for PBXNativeTarget "MuesliSwapTickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF02E0D727C2A74200F16BCE /* Debug */,
+				BF02E0D827C2A74200F16BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF02E0A327C2A74100F16BCE /* Project object */;
+}
